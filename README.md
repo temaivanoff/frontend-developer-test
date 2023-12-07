@@ -16,7 +16,7 @@
 ### Техническое задание  
 1. Разработать [React](https://create-react-app.dev/) компонент на базе библиотеки [TimeChart](https://github.com/huww98/TimeChart).  
   1.1 Компонент должен учитывать жизненые циклы [React](https://create-react-app.dev/): `componentDidMount`, `componentDidUpdate`, `componentWillUnmount` и т.д.  
-  1.2 Компонент должен поддерживать минимальное количество пропсов: `series` и `yRange` аналогично библиотеке [TimeChart](https://github.com/huww98/TimeChart), остальное по желанию.  
+  1.2 Компонент должен поддерживать минимальное количество [пропсов](https://react.dev/learn/passing-props-to-a-component): `series` и `yRange` аналогично библиотеке [TimeChart](https://github.com/huww98/TimeChart), остальное по желанию.  
   1.3 Все пропсы компонента должны быть динамические.  
   1.4 Компонент должен быть переиспользуемым.  
   1.5 Минимальное количество подключенных плагинов к библиотеке [TimeChart](https://github.com/huww98/TimeChart): `lineChart`, `d3Axis`, остальное по желанию.    
